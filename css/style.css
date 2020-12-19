@@ -314,3 +314,124 @@ body {
    font-size: 12px;
    letter-spacing: 0.25em;
 }
+
+@media (max-width: 1430px) {
+   .content__button-info-wrapper {
+      padding-left: 220px;
+   }
+   .gallery {
+      margin-left: 50px;
+      margin-right: 50px;
+   }
+   .footer {
+      padding: 0 80px;
+   }
+}
+
+@media (max-width: 1020px) {
+   .content__button-info-wrapper {
+      padding-left: 50px;
+   }
+}
+
+@media (max-width: 760px) {
+   .sidebar {
+      display: none;
+   }
+
+   .main-content {
+      flex-direction: column;
+   }
+
+   .gallery,
+   .galery__items {
+      justify-content: space-between;
+      margin-left: 0;
+   }
+   .content {
+      justify-content: space-between;
+   }
+
+   .footer__logo {
+      display: none;
+   }
+   .footer {
+      padding: 0;
+   }
+   .foote-content__list {
+      justify-content: space-between;
+   }
+   .content__button-info-wrapper {
+      max-width: 300px;
+      margin: 0 auto;
+   }
+}
+
+@media (max-width: 690px) {
+   .gallery {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-basis: auto;
+   }
+   .gallery__item {
+      margin-right: 15px;
+   }
+   .content__button-info-wrapper {
+      padding: 0;
+      margin: 0 auto;
+   }
+
+   .content {
+      justify-content: space-between;
+   }
+   .button-info__text:after {
+      content: "";
+      background: none;
+   }
+   .button-info {
+      padding-right: 25px;
+   }
+}
+
+@media (max-width: 512px) {
+   .footer-content__navigation {
+      padding-top: 10px;
+      display: flex;
+      justify-content: center;
+   }
+   .footer-content__list {
+      flex-direction: column;
+   }
+   .footer-content__list-item {
+      margin: 5px 0;
+   }
+
+   .copyright {
+      padding-top: 10px;
+
+      padding-bottom: 0;
+   }
+   .content__button-info-wrapper {
+      margin-top: 20px;
+      padding: 0;
+      padding-bottom: 0;
+   }
+   .button-info {
+      padding-right: 25px;
+   }
+   .button-info__text:after {
+      content: "";
+      background: none;
+   }
+}
+
+@media (max-width: 333px) {
+   .content {
+      padding: 5px 5px;
+   }
+   .gallery__item {
+      width: 80%;
+      height: 80%;
+   }
+}
